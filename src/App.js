@@ -8,6 +8,8 @@ import ClassCounterEffect from "./components/ClassCounterEffect";
 import HookCounterEffect from "./components/HookCounterEffect";
 import ClassCounterEffectTwo from "./components/ClassCounterEffectTwo";
 import HookCounterEffectTwo from "./components/HookCounterEffectTwo";
+import ClassMouse from "./components/ClassMouse";
+import HookMouse from "./components/HookMouse";
 
 
 function App() {
@@ -21,8 +23,10 @@ function App() {
       {/* <HookCounterFour /> */}
       {/* <ClassCounterEffect /> */}
       {/* <HookCounterEffect /> */}
-      <ClassCounterEffectTwo />
-      <HookCounterEffectTwo />
+      {/* <ClassCounterEffectTwo /> */}
+      {/* <HookCounterEffectTwo /> */}
+      <ClassMouse />
+      <HookMouse />
     </div>
   );
 }
