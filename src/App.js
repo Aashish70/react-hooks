@@ -16,6 +16,7 @@ import IntervalClassCounter from "./components/IntervalClassCounter";
 import IntervalHookCounter from "./components/IntervalHookCounter";
 import DataFetching from "./components/DataFetching";
 import ComponentC from "./components/ComponentC";
+import ReduceHookCounter from "./components/ReduceHookCounter";
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -41,11 +42,13 @@ function App() {
       {/* <IntervalHookCounter /> */}
       {/* <DataFetching /> */}
       
-      <UserContext.Provider value={"Ashish"}>
+      {/* <UserContext.Provider value={"Ashish"}>
         <ChannelContext.Provider value={"Codevolution"}>
           <ComponentC />
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+
+      <ReduceHookCounter />
     </div>
   );
 }
