@@ -10,6 +10,7 @@ import ClassCounterEffectTwo from "./components/ClassCounterEffectTwo";
 import HookCounterEffectTwo from "./components/HookCounterEffectTwo";
 import ClassMouse from "./components/ClassMouse";
 import HookMouse from "./components/HookMouse";
+import MouseContainer from "./components/MouseContainer";
 
 
 function App() {
@@ -25,8 +26,9 @@ function App() {
       {/* <HookCounterEffect /> */}
       {/* <ClassCounterEffectTwo /> */}
       {/* <HookCounterEffectTwo /> */}
-      <ClassMouse />
-      <HookMouse />
+      {/* <ClassMouse /> */}
+      {/* <HookMouse /> */}
+      <MouseContainer />
     </div>
   );
 }
