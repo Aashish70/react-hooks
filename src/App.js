@@ -18,6 +18,7 @@ import DataFetching from "./components/DataFetching";
 import ComponentC from "./components/ComponentC";
 import ReduceHookCounter from "./components/ReduceHookCounter";
 import ReduceHookCounterTwo from "./components/ReduceHookCounterTwo";
+import MultipleReducer from "./components/MultipleReducer";
 
 export const UserContext = React.createContext()
 export const ChannelContext = React.createContext()
@@ -50,7 +51,8 @@ function App() {
       </UserContext.Provider> */}
 
       {/* <ReduceHookCounter /> */}
-      <ReduceHookCounterTwo />
+      {/* <ReduceHookCounterTwo /> */}
+      <MultipleReducer />
     </div>
   );
 }
